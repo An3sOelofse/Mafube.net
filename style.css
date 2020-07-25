@@ -8,7 +8,19 @@
 
 :root{
   --mafube-green: #27ae60;
+  --light-green: #90e9b6;
   --blue-gray: #34495e;
+}
+
+body::-webkit-scrollbar{
+  width: 7px;
+}
+body::-webkit-scrollbar-track{
+  background-color: var(--blue-gray);
+}
+body::-webkit-scrollbar-thumb{
+  
+  background-color: var(--light-green);
 }
 
 h1{
