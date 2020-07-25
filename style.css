@@ -24,6 +24,10 @@ body{
   font-family: 'FontAwesome',sans-serif;
 }
 
+header{
+  width: 100%;
+  position: fixed;
+}
 
 #topdiv{
 background-color: var(--mafube-green);
@@ -54,6 +58,7 @@ float: right;
 
 #nav div a{
   font-family: 'FontAwesome',sans-serif;
+  font-style: normal;
   text-decoration: none;
 
 
@@ -72,13 +77,14 @@ float: right;
 }
 #nav div a:hover{
 font-style: italic;
+
 }
 #mainimage{
   margin: 0px;
   padding: 0px;
 
   width: 100%;
-  height: 90vh;
+  height: 100vh;
 background-image: url('images/mainpic.jpg');
 background-size: cover;
 background-position: center center;
