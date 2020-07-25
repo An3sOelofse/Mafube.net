@@ -6,6 +6,11 @@
        url('fonts/fontawesome-webfont.svg#svgFontName') format('svg'); /* Legacy iOS */
 }
 
+:root{
+  --mafube-green: #27ae60;
+  --blue-gray: #34495e;
+}
+
 h1{
   margin: 0px;
   padding: 0px;
@@ -21,14 +26,14 @@ body{
 
 
 #topdiv{
-background-color: #27ae60;
+background-color: var(--mafube-green);
 width: 100%;
 height: 80px;
 margin: 0px;
 padding: 0px;
 }
 #nav{
-  width: 100%
+  width: 100%;
   color: #ffffff;
   text-align: center;
 }
@@ -80,10 +85,6 @@ background-position: center center;
 overflow: hidden;
 
 }
-#landingcontainer{
-
-
-}
 #mainimage h1{
   color: #ffffff;
   padding-top: 20vh;
@@ -116,7 +117,7 @@ overflow: hidden;
   overflow: hidden;
 }
 #about h1{
-  color: #34495e;
+  color: var(--blue-gray);
   font-size: 60px;
   font-weight: bold;
   text-align: center;
@@ -131,7 +132,7 @@ overflow: hidden;
   margin-right: 20px;
 }
 #details{
-  background-color: #34495e;
+  background-color: var(--blue-gray);
   height: 430px;
   overflow: hidden;
 }
@@ -165,7 +166,7 @@ padding-top: 50px;
 
 }
 #foot{
-  background-color: #27ae60;
+  background-color: var(--mafube-green);
   color: #90e9b6;
   text-align: center;
   height: 60px;
